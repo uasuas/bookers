@@ -67,22 +67,14 @@ p {
   align-items: flex-start;
 }
 
-a {
+.a {
   margin: 10px 0;
 }
-a:visited {
+.link-color:visited {
   color: #666666;
 }
 
-.flash-message {
-  margin: 30px 50px;
-  font-size: 5px;
-}
-
-.flash-message.notice {
-  color: green;
-}
-
-.flash-message.alert {
-  color: red;
+.flash-error {
+  width: 400px;
+  height: 80px;
 }
